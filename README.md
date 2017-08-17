@@ -11,5 +11,8 @@ cd public/bower/ace
 npm install
 make build
 
+# docker
+docker-compose build
+docker-compose up -d
 ```
-访问 http://localhost:7890/ or http://localhost:7890/code.html
+访问 http://localhost:7890/
